@@ -6,9 +6,9 @@
     "start": "node_modules/.bin/webpack-dev-server --progress"
   },
   "author": "Kshitij Bajracharya",
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/bajracharya-kshitij/kanban.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bajracharya-kshitij/kanban.git"
   },
   "devDependencies": {
     "babel-core": "^5.8.*",
@@ -17,6 +17,7 @@
     "webpack-dev-server": "^1.10.*"
   },
   "dependencies": {
+    "marked": "^0.3.5",
     "react": "^0.13.*"
   }
 }
